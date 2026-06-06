@@ -1,0 +1,13 @@
+INTERPRÉTATION DE LA LOI D'OKUN - ESPAGNE
+
+Modèle estimé :
+Δu_t = α + β * croissance_PIB_t + ε_t
+
+Coefficient beta estimé : -0.4540
+P-value du coefficient : 0.0000
+R² du modèle : 0.4219
+
+Le coefficient est négatif. Cela signifie qu'une hausse de la croissance du PIB est associée à une baisse de la variation du chômage.
+Le coefficient est statistiquement significatif au seuil de 5%.
+
+Attention : ce modèle montre une relation statistique, mais il ne suffit pas seul pour prouver une causalité économique.
