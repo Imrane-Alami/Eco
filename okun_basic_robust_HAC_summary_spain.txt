@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     delta_unemployment   R-squared:                       0.422
+Model:                            OLS   Adj. R-squared:                  0.403
+Method:                 Least Squares   F-statistic:                     5.528
+Date:                Fri, 05 Jun 2026   Prob (F-statistic):             0.0252
+Time:                        18:08:00   Log-Likelihood:                -64.857
+No. Observations:                  33   AIC:                             133.7
+Df Residuals:                      31   BIC:                             136.7
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.7562      0.639      1.183      0.246      -0.548       2.060
+gdp_growth    -0.4540      0.193     -2.351      0.025      -0.848      -0.060
+==============================================================================
+Omnibus:                        0.682   Durbin-Watson:                   1.180
+Prob(Omnibus):                  0.711   Jarque-Bera (JB):                0.140
+Skew:                           0.127   Prob(JB):                        0.932
+Kurtosis:                       3.193   Cond. No.                         4.53
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
