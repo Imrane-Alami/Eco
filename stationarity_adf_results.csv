@@ -1,0 +1,4 @@
+variable,adf_p_value,conclusion
+gdp_growth,0.0003,Stationnaire
+unemployment,0.0003,Stationnaire
+delta_unemployment,0.0032,Stationnaire

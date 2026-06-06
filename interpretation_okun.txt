@@ -1,0 +1,13 @@
+INTERPRETATION DE LA LOI D'OKUN - BRESIL
+
+Modele estime :
+Delta_u_t = alpha + beta * croissance_PIB_t + epsilon_t
+
+Coefficient beta estime : -0.2887
+P-value du coefficient : 0.0001
+R2 du modele : 0.3942
+
+Le coefficient est negatif. Cela signifie qu'une hausse de la croissance du PIB est associee a une baisse de la variation du chomage.
+Le coefficient est statistiquement significatif au seuil de 5%.
+
+Attention : ce modele montre une relation statistique, mais il ne suffit pas seul pour prouver une causalite economique.

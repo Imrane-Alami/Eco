@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     delta_unemployment   R-squared:                       0.484
+Model:                            OLS   Adj. R-squared:                  0.428
+Method:                 Least Squares   F-statistic:                     20.89
+Date:                Fri, 05 Jun 2026   Prob (F-statistic):           2.63e-07
+Time:                        17:57:01   Log-Likelihood:                -41.592
+No. Observations:                  32   AIC:                             91.18
+Df Residuals:                      28   BIC:                             97.05
+Df Model:                           3                                         
+Covariance Type:                  HAC                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       0.6764      0.163      4.154      0.000       0.343       1.010
+gdp_growth                 -0.2886      0.039     -7.440      0.000      -0.368      -0.209
+gdp_growth_lag1             0.0144      0.062      0.232      0.818      -0.113       0.141
+delta_unemployment_lag1     0.3072      0.083      3.690      0.001       0.137       0.478
+==============================================================================
+Omnibus:                       28.114   Durbin-Watson:                   1.866
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               75.818
+Skew:                          -1.790   Prob(JB):                     3.44e-17
+Kurtosis:                       9.637   Cond. No.                         8.43
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
