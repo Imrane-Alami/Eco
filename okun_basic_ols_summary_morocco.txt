@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     delta_unemployment   R-squared:                       0.401
+Model:                            OLS   Adj. R-squared:                  0.381
+Method:                 Least Squares   F-statistic:                     20.71
+Date:                Fri, 05 Jun 2026   Prob (F-statistic):           7.74e-05
+Time:                        17:34:48   Log-Likelihood:                -23.517
+No. Observations:                  33   AIC:                             51.03
+Df Residuals:                      31   BIC:                             54.03
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2276      0.119      1.914      0.065      -0.015       0.470
+gdp_growth    -0.1029      0.023     -4.551      0.000      -0.149      -0.057
+==============================================================================
+Omnibus:                        0.685   Durbin-Watson:                   2.365
+Prob(Omnibus):                  0.710   Jarque-Bera (JB):                0.651
+Skew:                          -0.308   Prob(JB):                        0.722
+Kurtosis:                       2.694   Cond. No.                         7.18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

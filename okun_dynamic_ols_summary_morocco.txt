@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     delta_unemployment   R-squared:                       0.476
+Model:                            OLS   Adj. R-squared:                  0.420
+Method:                 Least Squares   F-statistic:                     8.475
+Date:                Fri, 05 Jun 2026   Prob (F-statistic):           0.000365
+Time:                        17:27:20   Log-Likelihood:                -20.936
+No. Observations:                  32   AIC:                             49.87
+Df Residuals:                      28   BIC:                             55.74
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       0.5728      0.206      2.786      0.009       0.152       0.994
+gdp_growth                 -0.1367      0.028     -4.854      0.000      -0.194      -0.079
+gdp_growth_lag1            -0.0711      0.034     -2.081      0.047      -0.141      -0.001
+delta_unemployment_lag1    -0.2319      0.180     -1.291      0.207      -0.600       0.136
+==============================================================================
+Omnibus:                        2.390   Durbin-Watson:                   2.094
+Prob(Omnibus):                  0.303   Jarque-Bera (JB):                1.430
+Skew:                          -0.226   Prob(JB):                        0.489
+Kurtosis:                       2.068   Cond. No.                         14.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

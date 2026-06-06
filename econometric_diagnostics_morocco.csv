@@ -1,0 +1,6 @@
+test,statistic,p_value,interpretation
+Durbin-Watson,2.36473830531165,,Proche de 2 = pas d'autocorrélation forte
+Jarque-Bera normality,0.6510243283104261,0.7221573957780412,p-value > 0.05 = résidus proches d'une distribution normale
+Breusch-Pagan heteroskedasticity,1.0150175971123514,0.31370377151760637,p-value > 0.05 = pas d'hétéroscédasticité détectée
+Breusch-Godfrey autocorrelation,1.267410679696365,0.26025299721058426,p-value > 0.05 = pas d'autocorrélation détectée
+Ramsey RESET specification,,0.14463032883587296,p-value > 0.05 = pas de problème majeur de spécification
